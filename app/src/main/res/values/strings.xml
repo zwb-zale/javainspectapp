@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InspectAplication</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_map">地图</string>
+    <string name="title_task">任务清单</string>
+    <string name="title_user">我的</string>
+</resources>
