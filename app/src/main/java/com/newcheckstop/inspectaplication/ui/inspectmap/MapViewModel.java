@@ -13,7 +13,7 @@ public class MapViewModel extends ViewModel {
     public MapViewModel() {
 
         mText = new MutableLiveData<>();
-        mText.setValue("This iqqqqqqqqs fragment");
+        mText.setValue("这是地图页面");
     }
 
     public LiveData<String> getText() {

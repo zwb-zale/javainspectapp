@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
-
-    <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.newcheckstop.inspectaplication.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
-
-    <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.newcheckstop.inspectaplication.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+    app:startDestination="@+id/navigation_task">
 
     <fragment
         android:id="@+id/navigation_map"
         android:name="com.newcheckstop.inspectaplication.ui.inspectmap.MapFragment"
         android:label="@string/title_map"
         tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/navigation_task"
+        android:name="com.newcheckstop.inspectaplication.ui.task.TaskFragment"
+        android:label="@string/title_task"
+        tools:layout="@layout/fragment_task" />
+
+    <fragment
+        android:id="@+id/navigation_user"
+        android:name="com.newcheckstop.inspectaplication.ui.usercenter.UsercenterFragment"
+        android:label="@string/title_user"
+        tools:layout="@layout/fragment_usercenter" />
 </navigation>
